@@ -20,7 +20,8 @@ def graficos():
         """)
 
     try:
-        base_df = pd.read_excel("datos/BASE.xlsx", sheet_name="BASE")
+        #base_df = pd.read_excel("datos/BASE.xlsx", sheet_name="BASE")
+        base_df = pd.read_excel("BASE.xlsx", sheet_name="BASE")
         #base_df = load_workbook("datos/BASE.xlsx")
         #base_df = base_df["BASE"] 
         dato_df = pd.read_csv('GOOGLE_BASE_WINE_CHEESE_PROJECT - DATASET.csv')
